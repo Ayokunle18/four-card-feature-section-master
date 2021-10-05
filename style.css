@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex; 
+   flex-direction: column;
+   background-color: hsl(0, 8%, 90%);
+   font-family: 'Poppins', sans-serif;
+}
+.first{
+   align-self: center;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.bold{
+  margin-top: 3%;
+  font-size: 28px;
+  align-self: center;
+  color: hsl(233, 12%, 28%);
+  text-align: center;
+  
+}
+.bold p{
+  padding-bottom: 1%;
+}
+.norm{
+ padding-inline: 14%;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 14px;
+  align-self: center;
+  width: 58%;
+  line-height: 18px;
+  color: hsl(230, 3%, 42%);
+}
+
+.second{
+  display: flex;
+  flex-direction: row;
+  padding-inline: 15%;
+  margin-top: 3.5%;
+
+ 
+}
+.oner{
+  align-self: center;
+  width: 33%;
+  margin-right: 3%;
+  
+}
+.twor{
+width: 33%;
+margin-right: 3%;
+}
+.threer{
+  align-self: center;
+  width: 33%;
+}
+.supervisor{
+  padding-top: 1px;
+  background-color: hsl(180, 62%, 55%);
+  border-radius: 5px;
+
+  
+  
+}
+.TB{
+  margin-bottom: 12%;
+  padding-top: 1px;
+  background-color: hsl(0, 78%, 62%);
+  border-radius: 5px;
+  
+}
+
+.karma{
+  padding-top: 1px;
+  background-color:  hsl(34, 97%, 64%);
+  border-radius: 5px;
+ }
+ .calc{
+  padding-top: 1px;
+  background-color: hsl(212, 86%, 64%);
+  border-radius: 5px;
+ }
+.text{
+  padding-top: 3%;
+  margin-top:1%;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+  background-color: whitesmoke;
+  padding-bottom: 8%;
+  padding-inline: 10%;
+  width: 100%;
+}
+.text b{
+  font-size: 17px;
+  color: hsl(234, 12%, 34%);
+
+}
+.text p{
+  color: hsl(229, 6%, 66%);
+  line-height: 18px;
+  margin-top: 2%;
+  font-size: 12.5px;
+}
+
+.box{
+  display: flex;
+  justify-content:flex-end ;
+  margin-top: 12%;
+}
+.pic1{
+  width: 19%;
+}
+.pic1 img{
+  width: 100%;
+}
+
+.pic2{
+  width: 15%;
+}
+.pic2 img{
+  width: 100%;
+}
+
+.pic3{
+  width: 15%;
+}
+.pic3 img{
+  width: 100%;
+}
+
+.pic4{
+  width: 15%;
+}
+.pic4 img{
+  width: 100%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 4%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/* media quaries */
+
+/* tablets */
+@media(max-width:800px){
+.second{
+  padding-inline: 8%;
+}
+.supervisor .box{
+  padding-top: 8%;
+}
+.karma .box{
+  padding-top: 8%;
+}
+.norm{
+  padding-inline: 1%;
+}
+}
+
+@media(max-width:600px){
+  .bold{
+    font-size: 24px;
+  }
+  .norm{
+    font-size: 12px;
+    padding-inline: 0;
+  }
+}
+
+/* phones */
+
+/* large */
+@media(max-width:500px){
+  .bold{
+    font-size: 28px;
+    margin-top: 5%;
+  }
+  .norm{
+    font-size: 14px;
+    width: 73%;
+    margin-top: 5%;
+  }
+  .second{
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .oner{
+    margin-right: 0;
+    width: 78%;
+  }
+  .supervisor{
+    
+    margin-bottom: 12%;
+  }
+  .twor{
+    align-self: center;
+    margin-right: 0;
+    width: 78%;
+    
+  }
+  .threer{
+    width: 78%;
+  }
+  .TB{
+    margin-bottom: 12%;
+  }
+  .karma{
+    margin-bottom: 12%;
+  }
+  .calc{
+    margin-bottom: 12%;
+  }
+  .text{
+    padding-inline: 12%;
+    
+  }
+  .text p{
+    font-size: 13.5px;
+  }
+  .calc .box{
+    padding-top: 8%; 
+  }
+ 
+}
+
+/* medium */
+@media(max-width:411px){
+  .TB{
+    margin-bottom: 13%;
+  }
+  .oner{
+    width: 89%;
+  }
+  .twor{
+    width: 89%;
+  }
+  .threer{
+    width: 89%;
+  }
+  .norm{
+    width: 90%;
+  }
+  .bold{
+ font-size: 25px;
+  }
+}
+
+/* smalll */
+
+@media(max-width:330px){
+.norm{
+  width: 86%;
+}
+.bold{
+  width: 95%;
+}
+}
+
